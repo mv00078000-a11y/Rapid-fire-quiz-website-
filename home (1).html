@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  }
+  #container{
+     background: url(background-2410790_640.jpg)
+     center/cover no-repeat;
+     height: 100vh;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+  }
+    #home_page{
+    width: 90%;
+    height: 10cm;
+    background: url(template-7084948_640.jpg)no-repeat center/cover;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: slideDown 1s ease-out forwards;
+}
+
+@keyframes slideDown {
+  from {
+    top: -100px;
+    opacity: 0;
+  }
+  to {
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+}
+  
+  a{
+    color: black;
+    font-size: 40px;
+    background: white;
+    padding: 5px 40px;
+    border-radius: 20px;
+  }
+  h1{
+    color: whitesmoke;
+    font-size: 44px;
+    font-weight: 800;
+  }
+     #footer {
+  background-color: #f0f0f0;  /* light gray background */
+  padding: 10px 0;
+  text-align: center;
+}
+
+.footer-text {
+  color: blue;
+  font-size: 14px;
+  margin: 0;
+}
+ #footer-content{
+   display: flex;
+   height: 20%;
+   justify-content: flex-end;
+   background: burlywood;
+ } 
+ 
+
+</style>
+<body>
+  <div id="container">
+  <div id="home_page">
+    <h1>
+      Rapid fire quiz game 
+    </h1>
+    <a href="index.html">play</a>
+  </div>
+
+  </div>
+    <div id="footer">
+  <p class="footer-text">© 2025 Adarsh Vishwakarma | All rights reserved.</p>
+  </div>
+</body>
+
+</html>
